@@ -26,5 +26,5 @@ RUN python manage.py collectstatic --noinput
 EXPOSE 8000
 
 # Start the Django app
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "gpproject/manage.py", "runserver", "0.0.0.0:8000"]
 
